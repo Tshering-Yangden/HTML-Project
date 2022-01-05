@@ -1,0 +1,55 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>ORDERING FORM</title>
+    </head>
+    <body style="background-image: linear-gradient(90deg,rgba(213,219,219,0.1),rgba(251,233,231,0.1))">
+        <h1 align="center" style="color:rgb(125, 206, 160)">Ordering Form For Orchids</h1>
+        <hr style="height:5px ; background-color:black">
+        <form method="post">
+            <label for="name"><strong><big> FULL NAME<sup style="color: red">*</sup>:</big></strong></label>&nbsp;
+            <input type="text" style="height: 30px ; width:300px ;border-radius: 5px" id="name" placeholder="eg:Tshering" required ><br><br><br>
+            
+            <label for="number"><strong><big>ORDERED NUMBER<sup style="color: red">*</sup>:</big></strong></label>&nbsp;
+            <input type="number" style="height: 30px ; width:300px ;border-radius: 5px" id="number" name="number" max="100" placeholder="eg:2" required><br><br><br>
+            
+            <label for="date"><strong><big>ITEM AT YOUR PLACE<sup style="color: red">*</sup>:</big></strong></label>&nbsp;
+            <input type="date" style="height: 30px ; width:300px ;border-radius: 5px" id="date" name="date" required><br><br><br>
+            
+            <label for="pnumber"><strong><big>PHONE NUMBER<sup style="color: red">*</sup>:</big></strong></label>&nbsp;
+            <input type="number" style="height: 30px ; width:300px ;border-radius: 5px" id="pnumber" name="pnumber" placeholder="eg:12345678" required><br><br><br>
+            
+            <label for="emailid"><strong><big>EMAIL ID<sup style="color: red">*</sup>:</big></strong></label>&nbsp;
+            <input type="email" style="height: 30px ; width:300px ;border-radius: 5px" id="emailid" name="age" placeholder="abc@gmail.com" required><br><br><br>
+            
+            
+            <label for="checkboxes"><strong><big>TYPES:</big></strong></label>
+            <input type="checkbox" id="checkboxes" name="checkboxes" value=" Phal. Charming Crystal Water" checked><big><strong> Phal. Charming Crystal Water</strong></big>
+            
+            <input type="checkbox" id="checkboxes" name="checkboxes" value="hal. I-Lan Golden Tree" ><big><strong>hal. I-Lan Golden Tree  </strong></big>
+            
+            
+            <input type="checkbox" id="checkboxes" name="checkboxes" value="hal. I-Hsin Sunflower x P. manii 'Black Magic"><big><strong>hal. I-Hsin Sunflower x P. manii Black Magic  </strong></big><br><br><br>
+            
+            <input type="checkbox" id="checkboxes" name="checkboxes" value="Phal. Perfect Pixie"><big><strong>Phal. Perfect Pixie</strong> </big><br><br><br>
+            
+            
+             
+            <label for="options"><strong><big>TO PLACE THE ORDER<sup style="color: red">*</sup>: </big></strong></label>
+            <select id="options" value="options" required><!-- multiple -->
+                <option>Paro</option>
+                <option>Punakha</option>
+                <option>Haa</option>
+            
+            </select><br><br><br>
+            
+            <label for="querybox"><strong><big>FEEDBACK QUERY :</big></strong></label>
+            <textarea rows=5 cols=25>
+            
+            </textarea><br><br><br>
+            
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
